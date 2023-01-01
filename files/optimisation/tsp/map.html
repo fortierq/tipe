@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_80f1264f85776cf6417873908187e640 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_80f1264f85776cf6417873908187e640" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_80f1264f85776cf6417873908187e640 = L.map(
+                "map_80f1264f85776cf6417873908187e640",
+                {
+                    center: [46.3833, 4.91667],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c69cd7366d0a6887e48cdcd3e4b409c2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_80f1264f85776cf6417873908187e640);
+        
+    
+            var circle_marker_d81f2aa139268d0f1fa4311434891d9a = L.circleMarker(
+                [50.6333, 3.06667],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_80f1264f85776cf6417873908187e640);
+        
+    
+        var popup_d76be927f177e3531770fcc339e06bbd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26b74bab44968e55e19d0e67c298a702 = $(`<div id="html_26b74bab44968e55e19d0e67c298a702" style="width: 100.0%; height: 100.0%;">LILLE (225800)</div>`)[0];
+                popup_d76be927f177e3531770fcc339e06bbd.setContent(html_26b74bab44968e55e19d0e67c298a702);
+            
+        
+
+        circle_marker_d81f2aa139268d0f1fa4311434891d9a.bindPopup(popup_d76be927f177e3531770fcc339e06bbd)
+        ;
+
+        
+    
+    
+            var circle_marker_c8305110ff6ef0cdf614b339dcf98e36 = L.circleMarker(
+                [44.8333, -0.566667],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_80f1264f85776cf6417873908187e640);
+        
+    
+        var popup_509717ee493b597cf62aca0f74d70f72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a0bc180e9e72e4af4260e5151b82f4d = $(`<div id="html_8a0bc180e9e72e4af4260e5151b82f4d" style="width: 100.0%; height: 100.0%;">BORDEAUX (235900)</div>`)[0];
+                popup_509717ee493b597cf62aca0f74d70f72.setContent(html_8a0bc180e9e72e4af4260e5151b82f4d);
+            
+        
+
+        circle_marker_c8305110ff6ef0cdf614b339dcf98e36.bindPopup(popup_509717ee493b597cf62aca0f74d70f72)
+        ;
+
+        
+    
+    
+            var circle_marker_4874d2d7420a6de587c7fd7cfea019ae = L.circleMarker(
+                [43.6, 3.88333],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_80f1264f85776cf6417873908187e640);
+        
+    
+        var popup_d1d9a912254877ec0590c816521891ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81fff2550390c54365224492b0061af0 = $(`<div id="html_81fff2550390c54365224492b0061af0" style="width: 100.0%; height: 100.0%;">MONTPELLIER (253000)</div>`)[0];
+                popup_d1d9a912254877ec0590c816521891ea.setContent(html_81fff2550390c54365224492b0061af0);
+            
+        
+
+        circle_marker_4874d2d7420a6de587c7fd7cfea019ae.bindPopup(popup_d1d9a912254877ec0590c816521891ea)
+        ;
+
+        
+    
+    
+            var circle_marker_8569f9e4d7016a4128939d9ebefafdaa = L.circleMarker(
+                [48.5833, 7.75],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_80f1264f85776cf6417873908187e640);
+        
+    
+        var popup_9b1470d25ac64593980ce19096194d16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18ec0b23ef0302cdf80d52c8b59def7c = $(`<div id="html_18ec0b23ef0302cdf80d52c8b59def7c" style="width: 100.0%; height: 100.0%;">STRASBOURG (272100)</div>`)[0];
+                popup_9b1470d25ac64593980ce19096194d16.setContent(html_18ec0b23ef0302cdf80d52c8b59def7c);
+            
+        
+
+        circle_marker_8569f9e4d7016a4128939d9ebefafdaa.bindPopup(popup_9b1470d25ac64593980ce19096194d16)
+        ;
+
+        
+    
+    
+            var circle_marker_57233ee73623a8d83d576a57800f2dbd = L.circleMarker(
+                [47.2167, -1.55],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_80f1264f85776cf6417873908187e640);
+        
+    
+        var popup_30c743d245a12293e971f0ad1c5224a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_753b9368d875e78719be1f0ed0915b42 = $(`<div id="html_753b9368d875e78719be1f0ed0915b42" style="width: 100.0%; height: 100.0%;">NANTES (283300)</div>`)[0];
+                popup_30c743d245a12293e971f0ad1c5224a5.setContent(html_753b9368d875e78719be1f0ed0915b42);
+            
+        
+
+        circle_marker_57233ee73623a8d83d576a57800f2dbd.bindPopup(popup_30c743d245a12293e971f0ad1c5224a5)
+        ;
+
+        
+    
+    
+            var circle_marker_b4c2c193cf6365713109813271e29245 = L.circleMarker(
+                [43.7, 7.25],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_80f1264f85776cf6417873908187e640);
+        
+    
+        var popup_482ef290fdd3cf060c0a718a4678df97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6cee383f9514edbb167b69feac73fd19 = $(`<div id="html_6cee383f9514edbb167b69feac73fd19" style="width: 100.0%; height: 100.0%;">NICE (344900)</div>`)[0];
+                popup_482ef290fdd3cf060c0a718a4678df97.setContent(html_6cee383f9514edbb167b69feac73fd19);
+            
+        
+
+        circle_marker_b4c2c193cf6365713109813271e29245.bindPopup(popup_482ef290fdd3cf060c0a718a4678df97)
+        ;
+
+        
+    
+    
+            var circle_marker_1756bdc75487c7c096ab35ad6bfdd0ff = L.circleMarker(
+                [43.6, 1.43333],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_80f1264f85776cf6417873908187e640);
+        
+    
+        var popup_bf8dcbd1745b0152758e4b68f78b9ed6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e599ee360d2374ef2b8e9c98237de74 = $(`<div id="html_6e599ee360d2374ef2b8e9c98237de74" style="width: 100.0%; height: 100.0%;">TOULOUSE (439600)</div>`)[0];
+                popup_bf8dcbd1745b0152758e4b68f78b9ed6.setContent(html_6e599ee360d2374ef2b8e9c98237de74);
+            
+        
+
+        circle_marker_1756bdc75487c7c096ab35ad6bfdd0ff.bindPopup(popup_bf8dcbd1745b0152758e4b68f78b9ed6)
+        ;
+
+        
+    
+    
+            var circle_marker_6744ac2f1070ee84e7e2f82eb353a20e = L.circleMarker(
+                [45.7589, 4.84139],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_80f1264f85776cf6417873908187e640);
+        
+    
+        var popup_378fb6774b7b2beb1c7896056ab1bbd6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23eb0c71256834293a29b6a2a0024fad = $(`<div id="html_23eb0c71256834293a29b6a2a0024fad" style="width: 100.0%; height: 100.0%;">LYON (474900)</div>`)[0];
+                popup_378fb6774b7b2beb1c7896056ab1bbd6.setContent(html_23eb0c71256834293a29b6a2a0024fad);
+            
+        
+
+        circle_marker_6744ac2f1070ee84e7e2f82eb353a20e.bindPopup(popup_378fb6774b7b2beb1c7896056ab1bbd6)
+        ;
+
+        
+    
+    
+            var circle_marker_c083bbcde1903f1930e11f004d5f0345 = L.circleMarker(
+                [43.2967, 5.37639],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_80f1264f85776cf6417873908187e640);
+        
+    
+        var popup_b1fe94790b0a34469d17d23cb27c6083 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ac042f2c4f087a9ed84f1c892fa5dc1 = $(`<div id="html_7ac042f2c4f087a9ed84f1c892fa5dc1" style="width: 100.0%; height: 100.0%;">MARSEILLE (851400)</div>`)[0];
+                popup_b1fe94790b0a34469d17d23cb27c6083.setContent(html_7ac042f2c4f087a9ed84f1c892fa5dc1);
+            
+        
+
+        circle_marker_c083bbcde1903f1930e11f004d5f0345.bindPopup(popup_b1fe94790b0a34469d17d23cb27c6083)
+        ;
+
+        
+    
+    
+            var circle_marker_972bb2fda49f61e9b843e44f4c5ea5b3 = L.circleMarker(
+                [48.86, 2.34445],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_80f1264f85776cf6417873908187e640);
+        
+    
+        var popup_c05b68520f9188b83fc9e05f2183c609 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4520d7e41d04e61c77f0fb7cf201e3ea = $(`<div id="html_4520d7e41d04e61c77f0fb7cf201e3ea" style="width: 100.0%; height: 100.0%;">PARIS (2211000)</div>`)[0];
+                popup_c05b68520f9188b83fc9e05f2183c609.setContent(html_4520d7e41d04e61c77f0fb7cf201e3ea);
+            
+        
+
+        circle_marker_972bb2fda49f61e9b843e44f4c5ea5b3.bindPopup(popup_c05b68520f9188b83fc9e05f2183c609)
+        ;
+
+        
+    
+    
+            var poly_line_30636439234abed8c397832aa5dd42c5 = L.polyline(
+                [[50.6333, 3.06667], [48.86, 2.34445], [47.2167, -1.55], [44.8333, -0.566667], [43.6, 1.43333], [43.6, 3.88333], [43.2967, 5.37639], [43.7, 7.25], [45.7589, 4.84139], [48.5833, 7.75], [50.6333, 3.06667]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_80f1264f85776cf6417873908187e640);
+        
+</script>
+</html>

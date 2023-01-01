@@ -1,0 +1,21 @@
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+# options:
+#   numbered: True
+chapters:
+  - file: ml/chapter.md
+    sections:
+      - file: ml/regression_logistique.ipynb
+      - file: ml/regression_lineaire.ipynb
+      - file: ml/svm.ipynb
+      - file: ml/kmeans.ipynb
+      - file: ml/reseau_neurone.ipynb
+  - file: optimisation/chapter.md
+    sections:
+      - file: optimisation/tsp/tsp.ipynb
+  - file: image/chapter.md
+    sections:
+      - file: image/egalisation_histogramme/egalisation_histogramme.ipynb
+      - file: image/ray_tracing/ray_tracing.ipynb
